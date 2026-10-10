@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "agentscore": {
+      "type": "http",
+      "url": "https://api.klisten.co.kr/mcp/agentscore",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}
