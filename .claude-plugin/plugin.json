@@ -1,0 +1,25 @@
+{
+  "name": "klisten-agentscore",
+  "version": "0.1.0",
+  "description": "Read an existing private first-party activity record from your own completed ToolGuard scan using the originating key. No identity verification, reputation score, evidence issuance or scan execution.",
+  "author": {
+    "name": "Klisten Inc",
+    "email": "klisteninc@gmail.com",
+    "url": "https://klisten.co.kr"
+  },
+  "homepage": "https://klisten.co.kr/docs.html",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Klisten API key",
+      "description": "Your own originating Klisten API key with agents:read: the same key that created the paid scan and activity. Never share an operator key.",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "license": "UNLICENSED",
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://klisten.co.kr/privacy.html",
+  "termsOfServiceUrl": "https://klisten.co.kr/terms.html",
+  "documentationUrl": "https://klisten.co.kr/docs.html"
+}
